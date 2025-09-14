@@ -1,0 +1,35 @@
+{
+  "name": "video-proctoring-backend",
+  "version": "1.0.0",
+  "description": "Backend API for video proctoring system - logs focus events, generates reports, and serves data to interviewer dashboard.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.0",
+    "html-pdf-node": "^1.0.8",
+    "mongoose": "^8.3.1",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.2",
+    "pdfkit": "^0.13.0",
+    "puppeteer": "^24.20.0",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "keywords": [
+    "proctoring",
+    "nodejs",
+    "express",
+    "video",
+    "focus-detection"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
