@@ -210,6 +210,7 @@ mongoose
             // console.log(`Allowed Origin: ${CLIENT_URL}`);
         });
     })
-    .catch((err) => {
-        // console.error("MongoDB connection failed:"
-    }, err);
+    .catch(() => {
+        // console.log(err)
+        // console.error("MongoDB connection failed:");
+    });
