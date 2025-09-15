@@ -1,6 +1,7 @@
 {
-  "name": "video-proctoring-backend",
+  "name": "proctoring-backend",
   "version": "1.0.0",
+  "type": "module",
   "description": "Backend API for video proctoring system - logs focus events, generates reports, and serves data to interviewer dashboard.",
   "main": "server.js",
   "scripts": {
