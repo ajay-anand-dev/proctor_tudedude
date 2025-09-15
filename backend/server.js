@@ -192,7 +192,7 @@ app.post("/api/generate-pdf", async (req, res) => {
 
 // ---------- Connect DB + Start Server ----------
 mongoose
-    .connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+    .connect(MONGO_URI)
     .then(() => {
         httpServer.listen(PORT, () => {
             // console.log(`Server running on port ${PORT}`);
